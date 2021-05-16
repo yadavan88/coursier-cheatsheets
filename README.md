@@ -1,4 +1,4 @@
-# Useful Coursier Commands
+# Useful Coursier Commands - Cheatsheet
 
 Refer to the [official documentation](https://get-coursier.io/docs/cli-installation.html#native-launcher) for more details.
 
