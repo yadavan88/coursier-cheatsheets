@@ -10,6 +10,7 @@ cs list | List all installed applications
 cs install scala | Install default Scala REPL
 cs install ammonite | Install ammonite REPL
 cs uninstall scala | Uninstall scala REPL
+cs uninstall --all | Uninstall all apps installed by cs
 cs update scala | Update Scala REPL to latest version
 
 ## JVM Setup Commands ##
@@ -34,3 +35,16 @@ cs launch scala:2.12.13 | Launches Scala REPL 2.12.13, but will NOT set as defau
 cs launch scala --jvm 11 | Launch Scala REPL with JVM as AdoptOpenJDK 11
 cs launch scala:2.13.4 --jvm 11 | Launch Scala REPL for version 2.13.4, and using JDK 11
 cs launch ammonite --jvm 14 | Launch ammonite REPL with default Scala Version and using JVM version 14
+
+## Artifacts related ##
+
+Command | Description
+--- | ---
+cs complete com.typesafe.akka: | List all artifacts under com.typesafe.akka
+cs complete com.typesafe.akka.akka-actor_ | List all artifacts for akka-actor for all scala versions
+cs resolve com.typesafe.akka::akka-actor:2.6.14 | List all the transitive dependencies of akka-actor
+cs resolve com.typesafe.akka::akka-actor:2.6.14 -t | List all the transitive dependencies of akka-actor in tree structure
+cs fetch com.typesafe.akka::akka-actor:2.6.14 | Download the jar files for akka-actor
+
+
+
