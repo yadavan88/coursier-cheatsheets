@@ -1,5 +1,7 @@
 # Useful Coursier Commands - Cheatsheet
 
+Coursier is a very useful tool for any Scala Developers. From installing JVMs and REPLs to identifying the transitive dependencies of libraries, I use it very often. 
+
 Refer to the [official documentation](https://get-coursier.io/docs/cli-installation.html#native-launcher) for more details.
 
 ## Coursier Commands ##
