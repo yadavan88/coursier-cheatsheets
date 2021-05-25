@@ -17,7 +17,7 @@ cs update scala | Update Scala REPL to latest version
 
 ## JVM Setup Commands ##
 
-**Note: Most of the times, simply restarting the termanial is enough to relfect the jvm(path changes). But sometimes, it is required to logout and login back to reflect it.**
+**Note: Most of the times, simply restarting the terminal is enough to relfect the jvm(path changes). But sometimes, it is required to logout and login back to reflect it.**
 
 Command | Description
 --- | ---
