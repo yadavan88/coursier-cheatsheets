@@ -39,6 +39,7 @@ cs launch scala:2.12.13 | Launches Scala REPL 2.12.13, but will NOT set as defau
 cs launch scala --jvm 11 | Launch Scala REPL with JVM as AdoptOpenJDK 11
 cs launch scala:2.13.4 --jvm 11 | Launch Scala REPL for version 2.13.4, and using JDK 11
 cs launch ammonite --jvm 14 | Launch ammonite REPL with default Scala Version and using JVM version 14
+cs install zookeeper --contrib | Install apps from contrib section
 
 ## Artifacts related ##
 
