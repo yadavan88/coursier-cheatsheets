@@ -55,9 +55,9 @@ cs fetch com.typesafe.akka::akka-actor:2.6.14 | Download the jar files for akka-
 ## How to distribute custom apps using Coursier? ##
 
 - Publish the custom apps to a central location, for e.g: local artifactory
-- Credentials for the artifactory/repository may be configured using _(credentials.properties)[https://get-coursier.io/docs/other-credentials]_
+- Credentials for the artifactory/repository may be configured using [credentials.properties](https://get-coursier.io/docs/other-credentials)
 - Package the application and create a launcher using the bootstrap command:
   - cs bootstrap -r https://central_repo/repository groupId:artifactId:version -o app_name
-- Create a (descriptor)[https://get-coursier.io/docs/cli-install.html#create-an-application-descriptor] and publish it to a central location.
+- Create a [descriptor](https://get-coursier.io/docs/cli-install.html#create-an-application-descriptor) and publish it to a central location.
 - Install using the cs install command:
   - cs install --channel https://app.descriptor.com/app_name.json app_name
