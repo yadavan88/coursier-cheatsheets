@@ -9,6 +9,7 @@ Refer to the [official documentation](https://get-coursier.io/docs/cli-installat
 Command | Description
 --- | ---
 cs list | List all installed applications
+cs update | Update coursier and all apps
 cs install scala | Install default Scala REPL
 cs install ammonite | Install ammonite REPL
 cs uninstall scala | Uninstall scala REPL
