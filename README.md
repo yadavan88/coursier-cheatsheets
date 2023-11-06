@@ -4,6 +4,8 @@ Coursier is a very useful tool for any Scala Developers. From installing JVMs an
 
 Refer to the [official documentation](https://get-coursier.io/docs/cli-installation.html#native-launcher) for more details. You can also refer to my [Baeldung article](https://www.baeldung.com/scala/coursier-env-setup) which briefly explains coursier.
 
+Coursier is used by [Scala-CLI](https://yadukrishnan.live/scala-made-simple-for-beginners-a-gentle-introduction-to-kickstarting-your-scala-learning) under the hood. I have also created a [Scala-CLI cheatsheet](https://github.com/yadavan88/ScalaCLI-Cheatsheet).
+
 ## Coursier Commands ##
 
 Command | Description
