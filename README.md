@@ -23,7 +23,7 @@ cs update scala | Update Scala REPL to latest version
 **Note: Most of the times, simply restarting the terminal is enough to relfect the jvm(path changes). But sometimes, it is required to logout and login back to reflect it.**
 
 
-**Note:** Recently, coursier changed the default JDK for ARM based machines. In Mac ARM, it uses Zulu by default, in Windows ARM liberica JDK is used. In others, it uses Temurin.
+_**Note:** Recently, coursier changed the default JDK for ARM based machines. In Mac ARM, it uses Zulu by default, in Windows ARM liberica JDK is used. In others, it uses Temurin._
 
 Command | Description
 --- | ---
