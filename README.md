@@ -22,12 +22,15 @@ cs update scala | Update Scala REPL to latest version
 
 **Note: Most of the times, simply restarting the terminal is enough to relfect the jvm(path changes). But sometimes, it is required to logout and login back to reflect it.**
 
+
+**Note: ** Recently, coursier changed the default JDK for ARM based machines. In Mac ARM, it uses Zulu by default, in Windows ARM liberica JDK is used. In others, it uses Temurin.
+
 Command | Description
 --- | ---
 ./cs setup | Initial setup with default applications |
 cs java --jvm 11 | Download/Install AdoptOpenJDK 11
-cs java --jvm 11 --setup | Downlaod/Install AdoptOpenJDK 11 and set as default
-cs java --jvm 11 --env | Download/Install AdoptOpenJDK 11 and print the export env statements
+cs java --jvm 11 --setup | Downlaod/Install default JDK(based on arch) 11 and set as default
+cs java --jvm 11 --env | Download/Install default JDK(based on arch) 11 and print the export env statements
 cs java --available | List all supported JVMs
 cs java --installed | List all installed JVMs
 cs java --jvm graalvm:20.0.0 --setup | Install and setup GraalVM 20.0.0 as the default version
@@ -39,7 +42,7 @@ Command | Description
 cs install scala | Install latest Scala REPL
 cs install scala:2.12.12 | Install Scala 2.12.12 REPL
 cs launch scala:2.12.13 | Launches Scala REPL 2.12.13, but will NOT set as default REPL
-cs launch scala --jvm 11 | Launch Scala REPL with JVM as AdoptOpenJDK 11
+cs launch scala --jvm 11 | Launch Scala REPL with JVM as JDK 11
 cs launch scala:2.13.4 --jvm 11 | Launch Scala REPL for version 2.13.4, and using JDK 11
 cs launch ammonite --jvm 14 | Launch ammonite REPL with default Scala Version and using JVM version 14
 cs install zookeeper --contrib | Install apps from contrib section
