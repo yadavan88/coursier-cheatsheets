@@ -28,7 +28,7 @@ _**Note:** Recently, coursier changed the default JDK for ARM based machines. In
 Command | Description
 --- | ---
 ./cs setup | Initial setup with default applications |
-cs java --jvm 11 | Download/Install AdoptOpenJDK 11
+cs java --jvm 11 | Download/Install default JDK(based on arch) 11
 cs java --jvm 11 --setup | Downlaod/Install default JDK(based on arch) 11 and set as default
 cs java --jvm 11 --env | Download/Install default JDK(based on arch) 11 and print the export env statements
 cs java --available | List all supported JVMs
